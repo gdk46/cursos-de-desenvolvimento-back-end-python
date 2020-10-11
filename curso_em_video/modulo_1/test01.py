@@ -1,0 +1,5 @@
+name = input('What´s your name ?')
+age = input('What´s your age ?')
+weight = input('What´s your weight?')
+height = input('What´s your height?')
+print(name, age, weight, height)
