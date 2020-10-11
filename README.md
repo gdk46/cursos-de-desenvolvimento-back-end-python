@@ -4,7 +4,7 @@ Projetos e minha trajetória no desenvovido back-end com a linguagem Python
 
 plataforma
 link:
-Markup :  [https://www.cursoemvideo.com/]
+(https://www.cursoemvideo.com/)
 
 
 ## Módulo 1 ##
