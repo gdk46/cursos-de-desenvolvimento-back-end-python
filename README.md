@@ -8,6 +8,7 @@ link:
 
 
 ## Módulo 1 ##
-* Introdução ao Python
+* Introdução ao Python :snake:
     * Tipos Primitivos e Saída de Dados
     * Operadores Aritméticos
+    * Tratando dados

@@ -1,0 +1,22 @@
+#tabuada 
+x = int(input('digite o valor de X para ver a tabuada: '))
+a = 1 * x
+print('1 * {} = {}'.format(x, a))
+b = 2 * x
+print('2 * {} = {}'.format(x, b))
+c = 3 * x
+print('3 * {} = {}'.format(x, c))
+d = 4 * x
+print('4 * {} = {}'.format(x, d))
+e = 5 * x
+print('5 * {} = {}'.format(x, e))
+f = 6 * x
+print('6 * {} = {}'.format(x, f))
+g = 7 * x
+print('7 * {} = {}'.format(x, g))
+h = 8 * x
+print('8 * {} = {}'.format(x, h))
+i = 9 * x
+print('9 * {} = {}'.format(x, i))
+j = 10 * x
+print('10 * {} = {}'.format(x, j))
