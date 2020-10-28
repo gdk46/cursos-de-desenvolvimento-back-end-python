@@ -6,4 +6,11 @@
 import emojis
 
 val = int(input('Digite um número: '))
-resto_d =   
+resto_d = val % 2
+
+
+if resto_d == 0:
+    print('par')    
+else:
+    print('impar')
+    

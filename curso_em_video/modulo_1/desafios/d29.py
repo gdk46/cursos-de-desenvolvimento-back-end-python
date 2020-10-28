@@ -4,17 +4,18 @@
     interação com o usuário
     notíciar a vitória com msg na tela
 """
-import emojis
+from random import randint
+import emojis, random
 
 
-int_number = 3
+int_number = randint(0, 5)
 val_user = int(input('Digite um número de 0 a 5: '))
 
 if val_user == int_number:    
     print(
         emojis.encode("""  
-        Párabens Você ganhou do nosso sistema :clap::ghost::slot_machine:
-    """))
+        Párabens Você ganhou do nosso sistema Nª{} :clap::ghost::slot_machine:
+    """).format(int_number))
 elif val_user > 5 or val_user < 0:
     print(
         emojis.encode("""  
@@ -24,7 +25,7 @@ elif val_user > 5 or val_user < 0:
 else:
     print(
         emojis.encode("""  
-        Nosso sistema ganhou de você :fire::alien:
-    """))
+        Nosso sistema ganhou de você Nª{} :fire::alien:
+    """).format(int_number))
     
 
