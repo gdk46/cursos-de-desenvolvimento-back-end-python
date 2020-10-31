@@ -7,16 +7,16 @@
     Resultado esperado:
 """
 
-# casaValor = float(input('Valor da casa: R$'))
-# salario = float(input('digite seu salario'))
-# tempo = int(input('Tempo em que ira pagar o valor do emprestimo (em ano)'))
-casaValor = 10000
-salario = 1.000
-tempo = 40
+casaValor = float(input('Valor da casa: R$:'))
+salario = float(input('digite seu salario: R$:'))
+tempo = int(input('Tempo em que ira pagar o valor do emprestimo (em ano): '))
 
-quantidadeMes = 12 * tempo
-casaPorcentagem = (casaValor * 30) / 100
-porcentagemParcela = ""
-porcetagem = ""
+prestacao = 12 * tempo
+minimo = (salario * 30) / 100
 
-print(casaPorcentagem)
+print('para pagar uma casa de R$:{:.2f} em {} anos'.format(casaValor, tempo, end=''))
+print('a prestação será de {:.2f}'.format(prestacao))
+if prestacao <= minimo:
+  print('Emprestimo aprovado')
+else:
+  print('Emprestimo negado')
