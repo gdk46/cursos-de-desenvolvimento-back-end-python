@@ -10,3 +10,4 @@ link:
 ## Módulo 1 ##
 * Introdução ao Python 
     * Condições Aninhadas
+    * Estrutura de repetição for

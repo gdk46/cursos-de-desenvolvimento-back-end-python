@@ -1,0 +1,6 @@
+"""  
+    Progressão Aritimétrica
+    Requisitos:
+
+"""
+

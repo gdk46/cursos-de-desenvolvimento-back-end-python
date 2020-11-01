@@ -1,0 +1,6 @@
+"""  
+    Detector de Palíndromo		
+    Requisitos:
+
+"""
+

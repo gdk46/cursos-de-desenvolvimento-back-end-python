@@ -1,0 +1,6 @@
+"""  
+    Soma de pares
+    Requisitos:
+
+"""
+

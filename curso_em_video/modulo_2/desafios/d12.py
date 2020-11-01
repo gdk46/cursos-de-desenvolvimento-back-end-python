@@ -1,0 +1,6 @@
+"""  
+    Contagem de pares
+    Requisitos:
+
+"""
+
