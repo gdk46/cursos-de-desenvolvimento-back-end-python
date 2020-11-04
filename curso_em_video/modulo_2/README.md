@@ -11,3 +11,4 @@ link:
 * Introdução ao Python 
     * Condições Aninhadas
     * Estrutura de repetição for
+    * Estrutura de repetição while
